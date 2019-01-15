@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>David Odden - Web Application Engineer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+
+	html, body {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		color: #131313;
+		font-family: Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	body {
+		padding: 2rem;
+		margin: 0 auto;
+		max-width: 56rem;
+	}
+
+	h1 {  /*  Name  */
+		font-size: 3rem;
+		font-weight: normal;
+		color: #131313;
+		margin: 0;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		h1 {  /*  Name  */
+			font-size: 2.5rem;
+		}
+	}
+
+	h2 {  /*  Title  */
+		font-size: 1.75rem;
+		font-weight: normal;
+		color: rgb(199, 56, 29);
+		margin: .5rem 0;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		h2 {  /*  Title  */
+			font-size: 1.5rem;
+		}
+	}
+
+	h3 {  /*  Section Headings  */
+		font-weight: normal;
+		font-size: 2.5rem;
+		padding: 1rem 0;
+		margin: 1rem 0 1.25rem;
+		border-bottom: 1px solid #eee;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		h3 {  /*  Section Headings  */
+			font-size: 1.5rem;
+		}
+	}
+
+	h4 {  /*  Experience Title  */
+		margin: 0;
+		color: #222;
+		font-size: 2rem;
+		font-weight: normal;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		h4 {  /*  Title  */
+			font-size: 1.5rem;
+		}
+	}
+
+	h5 {  /*  Company  */
+		font-size: 1.25rem;
+    color: #8a8a8a;
+    font-weight: normal;
+		margin: .3625rem 0;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		h5 {  /*  Company  */
+			font-size: .8625rem;
+		}
+	}
+
+	p, ul {
+		font-size: 1.25rem;
+		line-height: 1.5;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		p, ul {
+			font-size: 1rem;
+			line-height: 1.3625;
+		}
+	}
+
+	ul {
+		padding: 0;
+		padding-left: 1rem;
+	}
+
+	ul li {
+		margin: .625rem 0;
+	}
+
+	.standalone-paragraph {
+		margin: 2rem 0;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		.standalone-paragraph {
+			margin: 1.5rem 0;
+		}
+	}
+
+	.emphasis {
+		font-weight: 600;
+	}
+
+	.adjacent-layout {
+		display: block;
+		margin: 2rem 0;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		.adjacent-layout {
+			display: flex;
+		}
+	}
+
+	.experience-date-range-container {
+		display: none;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		.experience-date-range-container {
+			display: block;
+			min-width: 15%;
+			margin-right: 1.5rem;
+			margin-bottom: 0;
+		}
+	}
+
+	.date-range {
+		font-size: 1.5rem;
+		color: #666;
+		font-style: normal;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		.date-range {
+			font-size: .8625rem;
+		}
+	}
+
+	.mobile-date-range {
+		font-size: 1rem;
+		margin-top: .75rem;
+	}
+
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		.mobile-date-range {
+			display: none;
+		}
+	}
+
+	</style>
+</head>
+<body>
+	<h1>David Odden</h1>
+	<h2>Front-End Web Application Engineer</h2>
+	<p class="standalone-paragraph">I am a determined, intellectually curious Web Application Engineer with an affinity
+		toward clean, responsive interfaces, reusable UI components, and thoroughly tested code. 
+		I am organized, meticulous, meet deadlines, and work well on a team. Specializing in 
+		process automation and data management web applications, I create inconceivably incredible, 
+		concisely crafted tools using JavaScript.
+	</p>
+
+	<h3>Experience</h3>
+
+	<section class="adjacent-layout">
+		<div class="experience-date-range-container">
+			<i class="date-range">Oct 2014 - Present</i>
+		</div>
+		<div class="experience-list-container">
+			<h4>Web Application Engineer</h4>
+			<h5>EAB Global Inc. <div class="mobile-date-range">Oct 2014 - Present</div></h5>
+			<ul>
+				<li>Lead front-end technical direction, performance auditing, and UI/UX/IxD for EAB's internal data intake and processing platform using <span class="emphasis">JavaScript</span>, <span class="emphasis">Angular+CLI</span>, <span class="emphasis">TypeScript</span>, <span class="emphasis">CSS3/SASS</span>, <span class="emphasis">Gulp</span>, <span class="emphasis">NPM</span>, <span class="emphasis">JWTs</span>, <span class="emphasis">REST APIs</span>, <span class="emphasis">Jenkins</span>, and <span class="emphasis">GitLab.</span></li>
+				<li><span class="emphasis">JavaScript</span> developer on EAB's customer facing Business Intelligence tool, which functions to distill complex big data stores over <span class="emphasis">REST APIs</span> and secured <span class="emphasis">PGP Tokens</span>.</li>
+				<li>Feature developer on a data management CRUD application written in <span class="emphasis">React/Redux</span>, <span class="emphasis">TypeScript</span>, <span class="emphasis">CSS3/SASS</span>, and <span class="emphasis">ColdFusion</span>. The project is managed with <span class="emphasis">NPM</span>, data transmission is over <span class="emphasis">REST APIs</span> and CI/CD is handled with <span class="emphasis">SVN</span> and <span class="emphasis">Jenkins</span>.</li>
+				<li>Winner of EAB's "Platform Impact" award recognizing my role in the development of our B.I. platform. (December  2018)</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="adjacent-layout">
+		<div class="experience-date-range-container">
+			<i class="date-range">Apr 2014 - Aug 2014</i>
+		</div>
+		<div class="experience-list-container">
+			<h4>Interaction Developer</h4>
+			<h5>ICF International <div class="mobile-date-range">Apr 2014 - Aug 2014</div></h5>
+			<ul>
+				<li>Designed and built a government contracted web application in <span class="emphasis">jQuery</span> and <span class="emphasis">CSS</span> that evaluates the health consciousness of buildings. The questionnaire is completed by navigating through intricately animated scenes triggered on page scroll.</li>
+				<li>Created a multi-stage green house gas emissions calculator for the EPA, leveraging <span class="emphasis">Angular</span>, <span class="emphasis">CSS3/SASS</span>, and <span class="emphasis">Jenkins</span>.</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="adjacent-layout">
+		<div class="experience-date-range-container">
+			<i class="date-range">Oct 2011 - Apr 2014</i>
+		</div>
+		<div class="experience-list-container">
+			<h4>Mobile UI / UX / IxD Designer</h4>
+			<h5>Capital One <div class="mobile-date-range">Oct 2011 - Apr 2014</div></h5>
+			<p class="standalone-paragraph">Worked on over 30 agile projects producing credit card servicing features for Capital One's 
+				mobile application. Responsible for wireframes, high resolution designs, mobile optimized iconography and prototypes while 
+				working closely with the team's Product Owner, BSA, and Developers.
+			</p>
+			<ul>
+				<li>Developed a proprietary efficiency tool in <span class="emphasis">jQuery</span> to construct UIs via a drag and drop interface that exports the resulting HTML/CSS/JS into production ready code.</li>
+				<li>Designed and developed an "app store" to house Capital One's daily/historical dev builds, for testing purposes and associate previews, using <span class="emphasis">jQuery</span>, <span class="emphasis">CSS3</span>, <span class="emphasis">AWS</span>, and <span class="emphasis">REST APIs</span>.</li>
+				<li>Utilized <span class="emphasis">D3.js</span> for interactive web charts and graphs of Capital One customer data.</li>
+				<li>Built a WYSIWYG editor in <span class="emphasis">jQuery</span>, <span class="emphasis">CSS3</span> and <span class="emphasis">PHP</span> for the Email Newsletter team that enables users to create and send HTML newsletters without touching code.</li>
+				<li>Winner of a company-wide innovation challenge by demonstrating a predictive model of user activity and how Capital One can leverage this information to create a better user experience. (September 2013)</li>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>
