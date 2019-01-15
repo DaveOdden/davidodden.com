@@ -22,26 +22,26 @@
 	}
 
 	h1 {  /*  Name  */
-		font-size: 3.5rem;
+		font-size: 3rem;
 		font-weight: normal;
 		color: #131313;
 		margin: 0;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		h1 {  /*  Name  */
 			font-size: 2.5rem;
 		}
 	}
 
 	h2 {  /*  Title  */
-		font-size: 2rem;
+		font-size: 1.75rem;
 		font-weight: normal;
 		color: rgb(199, 56, 29);
 		margin: .5rem 0;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		h2 {  /*  Title  */
 			font-size: 1.5rem;
 		}
@@ -50,10 +50,12 @@
 	h3 {  /*  Section Headings  */
 		font-weight: normal;
 		font-size: 2.5rem;
-		margin: 2rem 0 1.25rem;
+		padding: 1rem 0;
+		margin: 1rem 0 1.25rem;
+		border-bottom: 1px solid #eee;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		h3 {  /*  Section Headings  */
 			font-size: 1.5rem;
 		}
@@ -66,7 +68,7 @@
 		font-weight: normal;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		h4 {  /*  Title  */
 			font-size: 1.5rem;
 		}
@@ -79,18 +81,18 @@
 		margin: .3625rem 0;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
-		h5 {  /*  Title  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
+		h5 {  /*  Company  */
 			font-size: .8625rem;
 		}
 	}
 
 	p, ul {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		line-height: 1.5;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		p, ul {
 			font-size: 1rem;
 			line-height: 1.3625;
@@ -107,10 +109,10 @@
 	}
 
 	.standalone-paragraph {
-		margin: 3rem 0;
+		margin: 2rem 0;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		.standalone-paragraph {
 			margin: 1.5rem 0;
 		}
@@ -125,7 +127,7 @@
 		margin: 2rem 0;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		.adjacent-layout {
 			display: flex;
 		}
@@ -135,7 +137,7 @@
 		display: none;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		.experience-date-range-container {
 			display: block;
 			min-width: 15%;
@@ -150,17 +152,18 @@
 		font-style: normal;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		.date-range {
 			font-size: .8625rem;
 		}
 	}
 
 	.mobile-date-range {
+		font-size: 1rem;
 		margin-top: .75rem;
 	}
 
-	@media only screen and (min-width: 30rem) {  /*  Desktop  */
+	@media only screen and (min-width: 44rem) {  /*  Desktop  */
 		.mobile-date-range {
 			display: none;
 		}
@@ -184,14 +187,13 @@
 		<div class="experience-date-range-container">
 			<i class="date-range">Oct 2014 - Present</i>
 		</div>
-		<div class="experience-list-contai
-		ner">
+		<div class="experience-list-container">
 			<h4>Web Application Engineer</h4>
 			<h5>EAB Global Inc. <div class="mobile-date-range">Oct 2014 - Present</div></h5>
 			<ul>
-				<li>Lead front-end technical direction, performance auditing, and UI/UX/IxD for EAB's internal data intake and processing platform using <span class="emphasis">Angular+CLI</span>, <span class="emphasis">Typescript</span>, <span class="emphasis">CSS3/SASS</span>, <span class="emphasis">Gulp</span>, <span class="emphasis">NPM</span>, <span class="emphasis">JWTs</span>, <span class="emphasis">REST APIs</span>, <span class="emphasis">Jenkins</span>, and <span class="emphasis">GitLab.</span></li>
-				<li><span class="emphasis">Javascript</span> developer on EAB's customer facing Business Intelligence tool, which functions to distill complex big data stores over <span class="emphasis">REST APIs</span> and secured <span class="emphasis">PGP Tokens</span>.</li>
-				<li>Feature developer on a data management CRUD application written in <span class="emphasis">React/Redux</span>, <span class="emphasis">Typescript</span>, <span class="emphasis">CSS3/SASS</span>, and <span class="emphasis">ColdFusion</span>. The project is managed with <span class="emphasis">NPM</span>, data transmission is over <span class="emphasis">REST APIs</span> and CI/CD is handled with <span class="emphasis">SVN</span> and <span class="emphasis"></span>Jenkins</span>.</li>
+				<li>Lead front-end technical direction, performance auditing, and UI/UX/IxD for EAB's internal data intake and processing platform using <span class="emphasis">JavaScript</span>, <span class="emphasis">Angular+CLI</span>, <span class="emphasis">TypeScript</span>, <span class="emphasis">CSS3/SASS</span>, <span class="emphasis">Gulp</span>, <span class="emphasis">NPM</span>, <span class="emphasis">JWTs</span>, <span class="emphasis">REST APIs</span>, <span class="emphasis">Jenkins</span>, and <span class="emphasis">GitLab.</span></li>
+				<li><span class="emphasis">JavaScript</span> developer on EAB's customer facing Business Intelligence tool, which functions to distill complex big data stores over <span class="emphasis">REST APIs</span> and secured <span class="emphasis">PGP Tokens</span>.</li>
+				<li>Feature developer on a data management CRUD application written in <span class="emphasis">React/Redux</span>, <span class="emphasis">TypeScript</span>, <span class="emphasis">CSS3/SASS</span>, and <span class="emphasis">ColdFusion</span>. The project is managed with <span class="emphasis">NPM</span>, data transmission is over <span class="emphasis">REST APIs</span> and CI/CD is handled with <span class="emphasis">SVN</span> and <span class="emphasis">Jenkins</span>.</li>
 				<li>Winner of EAB's "Platform Impact" award recognizing my role in the development of our B.I. platform. (December  2018)</li>
 			</ul>
 		</div>
